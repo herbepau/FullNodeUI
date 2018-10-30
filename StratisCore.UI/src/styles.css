@@ -4027,6 +4027,10 @@ tbody.collapse.show {
   background-color: #fff;
 }
 
+.card-body dl, .card-body dt, .card-body dd {
+  margin-bottom: 0 !important;
+}
+
 .card-title {
   margin-bottom: 0.75rem;
 }
@@ -8397,18 +8401,12 @@ img {
   cursor: pointer;
 }
 
-#GUI .navbar .form-inline a:hover .lnr {
+#GUI .navbar .form-inline a:hover .lnr-exit {
   color: #158BCF;
 }
 
-#GUI .navbar .form-inline a .lnr {
-  font-size: 1.25rem;
-  color: #adb5bd;
-}
-
-#GUI .navbar .form-inline .dropdown-menu .lnr {
-  margin-right: .5rem;
-  font-size: 1rem;
+#GUI .navbar .form-inline a .lnr-exit {
+  font-size: 1.5rem;
   color: #adb5bd;
 }
 
@@ -8536,14 +8534,6 @@ img {
 #GUI .card .stake-type {
   padding: 1.125rem 1.25rem 0;
   background-color: #fff;
-}
-
-#GUI .card .card-body dl, #GUI .card .card-body dt, #GUI .card .card-body dd {
-  margin-bottom: 0;
-}
-
-#GUI .dropdown-menu-nocaret .dropdown-toggle::after {
-  display: none;
 }
 
 #GUI #switch {

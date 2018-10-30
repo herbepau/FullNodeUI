@@ -58,17 +58,10 @@ img {pointer-events: none !important;}
       a {
         &:hover {
           cursor: pointer;
-          .lnr {color: $primary;}
+          .lnr-exit {color: $primary;}
         }
-        .lnr {
-          font-size: 1.25rem;
-          color: $gray-500;
-        }
-      }
-      .dropdown-menu {
-        .lnr {
-          margin-right: .5rem;
-          font-size: 1rem;
+        .lnr-exit {
+          font-size: 1.5rem;
           color: $gray-500;
         }
       }
@@ -175,16 +168,6 @@ img {pointer-events: none !important;}
       padding: 1.125rem 1.25rem 0;
       background-color: $white;
     }
-    .card-body {
-      dl, dt, dd {margin-bottom: 0;}
-    }
-  }
-
-  // no caret
-  .dropdown-menu-nocaret {
-    .dropdown-toggle::after {
-    display:none;
-}
   }
 
   // Toggle
