@@ -10,8 +10,8 @@
         <form class="form-inline col-1" style="max-width: none">
             <div class="btn-group navbar-text ml-auto">
                 <div ngbDropdown class="d-inline-block">
-                    <button class="btn btn-outline-primary" id="dropdownBasic1" ngbDropdownToggle>{{walletName}}</button>
-                    <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
+                    <button class="btn btn-outline-light" id="dropdownBasic1" ngbDropdownToggle>{{walletName}}</button>
+                    <div class="dropdown-menu-right" ngbDropdownMenu aria-labelledby="dropdownBasic1">
                         <button *ngFor="let option of enabledOptions" class="dropdown-item d-flex align-items-center"
                             type="button" (click)="optionClicked(option)">{{option.displayName}}</button>
                         <div class="dropdown-divider"></div>
