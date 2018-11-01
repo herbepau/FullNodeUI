@@ -175,11 +175,7 @@ img {pointer-events: none !important;}
       padding: 1.125rem 1.25rem 0;
       background-color: $white;
     }
-    .card-body {
-      dl, dt, dd {margin-bottom: 0;}
-    }
   }
-
   // no caret
   .dropdown-menu-nocaret {
     .dropdown-toggle::after {

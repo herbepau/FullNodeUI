@@ -4101,6 +4101,10 @@ tbody.collapse.show {
   background-color: #fff;
 }
 
+.card-body dl, .card-body dt, .card-body dd {
+  margin-bottom: 0 !important;
+}
+
 .card-title {
   margin-bottom: 0.75rem;
 }
@@ -8679,10 +8683,6 @@ img {
 #GUI .card .stake-type {
   padding: 1.125rem 1.25rem 0;
   background-color: #fff;
-}
-
-#GUI .card .card-body dl, #GUI .card .card-body dt, #GUI .card .card-body dd {
-  margin-bottom: 0;
 }
 
 #GUI .dropdown-menu-nocaret .dropdown-toggle::after {
