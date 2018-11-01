@@ -3583,7 +3583,7 @@ tbody.collapse.show {
 
 .nav-link {
   display: block;
-  padding: 0.5rem 1rem;
+  padding: 0.5rem;
   color: #98A3B3;
 }
 
@@ -8995,6 +8995,11 @@ img {
   flex-direction: column;
   justify-content: center;
   overflow: auto;
+}
+
+.modal .modal-dialog .tab-content {
+  flex: 0 0 100% !important;
+  max-width: 100% !important;
 }
 
 .modal .myAddress .btn:hover {

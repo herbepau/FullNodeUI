@@ -449,6 +449,11 @@ img {pointer-events: none !important;}
     flex-direction: column;
     justify-content: center;
     overflow: auto;
+    // special addresses
+    .tab-content {
+      flex: 0 0 100% !important;
+      max-width: 100% !important;
+    }
   }
   .myAddress {
     .btn {&:hover {cursor: pointer;}}
